@@ -682,7 +682,7 @@ body::-webkit-scrollbar-track {
 }
 .quote-container {
     margin: 4.5rem auto 0;
-    width: 17em;
+    width: 18em;
     border-bottom: 2px dotted #c6d1bf;
     padding-bottom: 0.5rem;
 }
