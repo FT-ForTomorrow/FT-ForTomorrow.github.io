@@ -667,13 +667,13 @@ body::-webkit-scrollbar-track {
     color: unset;
 }
 .quote {
+    font-family: 'SimSun', 'Open Sans Condensed';
     position: relative;
     letter-spacing: 0.03em;
     margin-bottom: 0.5rem;
 }
 .quote:before {
     content: "“";
-    position: absolute;
     left: -0.7em;
 }
 .quote:after {
