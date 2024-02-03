@@ -930,6 +930,12 @@ ol li {
     ol {
         padding-left: 40px;
     }
+    .quote-container {
+        margin: 4.5rem auto 0;
+        width: 30em;
+        border-bottom: 2px dotted #c6d1bf;
+        padding-bottom: 0.5rem;
+    }
 }
 @media (min-width: 900px) and (max-width: 1200px) {
     #home-card {
@@ -1008,11 +1014,5 @@ ol li {
     ul,
     ol {
         padding-left: 20px;
-    }
-    .quote-container {
-        margin: 4.5rem auto 0;
-        width: 30em;
-        border-bottom: 2px dotted #c6d1bf;
-        padding-bottom: 0.5rem;
     }
 }
