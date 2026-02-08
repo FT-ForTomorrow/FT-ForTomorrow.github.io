@@ -1,0 +1,70 @@
+#kanban {
+	z-index: 1005;
+	caret-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+}
+	
+@media (max-width : 1200px) {
+	#kanban .cyx {
+		width: 100px;
+		height: 100px;
+		padding: 0 0 0 0;
+		margin: -18px -18px -18px -18px;
+	}
+	#kanban .cyx-run {
+		width: 100px;
+		height: 100px;
+		padding: 0 0 0 0;
+		margin: -22px -22px -22px -22px;
+		animation: cyx-move 15s linear;
+		animation-iteration-count: infinite;
+		animation-fill-mode: forwards;
+		position: fixed;
+		z-index:1;
+		bottom: 5px;
+	}
+	@keyframes cyx-move {
+		0%    {transform: rotate(360deg); right:calc(100% - 65px); bottom:5px;}
+		25%   {transform: rotate(360deg); right:0%;                bottom:5px;}
+		26%   {transform: rotate(270deg); right:5px;               bottom:0%;}
+  		50%   {transform: rotate(270deg); right:5px;               bottom:calc(100% - 65px);}
+		51%   {transform: rotate(180deg); right:0%;                bottom:calc(100% - 60px);}
+		75%   {transform: rotate(180deg); right:calc(100% - 60px); bottom:calc(100% - 60px);}
+		76%   {transform: rotate(90deg);  right:calc(100% - 60px); bottom:calc(100% - 60px);}
+		99%   {transform: rotate(90deg);  right:calc(100% - 60px); bottom:60px;}
+		100%  {transform: rotate(0deg);   right:calc(100% - 60px); bottom:5px;}
+	}
+}
+@media (min-width : 1200px) {
+	#kanban .cyx{
+		width: 150px;
+		height: 150px;
+		padding: 0 0 0 0;
+		margin: -26px -26px -26px -26px;
+	}
+	#kanban .cyx-run {
+		width: 150px;
+		height: 150px;
+		padding: 0 0 0 0;
+		margin: -32px;
+		animation: cyx-move 35s linear;
+		animation-iteration-count: infinite;
+		animation-fill-mode: forwards;
+		position: fixed;
+		z-index:1;
+		bottom: 5px;
+	}
+	@keyframes cyx-move {
+		0%    {transform: rotate(360deg); right:calc(100% - 95px); bottom:5px;}
+		25%   {transform: rotate(360deg); right:0%;                bottom:5px;}
+		26%   {transform: rotate(270deg); right:5px;               bottom:0%;}
+  		50%   {transform: rotate(270deg); right:5px;               bottom:calc(100% - 95px);}
+		51%   {transform: rotate(180deg); right:0%;                bottom:calc(100% - 90px);}
+		75%   {transform: rotate(180deg); right:calc(100% - 90px); bottom:calc(100% - 90px);}
+		76%   {transform: rotate(90deg);  right:calc(100% - 90px); bottom:calc(100% - 90px);}
+		99%   {transform: rotate(90deg);  right:calc(100% - 90px); bottom:60px;}
+		100%  {transform: rotate(0deg);   right:calc(100% - 95px); bottom:5px;}
+	}
+}
