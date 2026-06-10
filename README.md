@@ -1,6 +1,6 @@
 # 为明天 - ForTomorrow
 
-个人博客：[fortomorrow.fun](https://ft-fortomorrow.top/)
+个人博客：[ft-fortomorrow.top](https://ft-fortomorrow.top/)
 
 备用链接1：[fortomorrow.fun](https://fortomorrow.fun/)
 
