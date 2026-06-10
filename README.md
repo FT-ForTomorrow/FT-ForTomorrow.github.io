@@ -1,4 +1,7 @@
 # 为明天 - ForTomorrow
 
-个人博客：[fortomorrow.top](https://fortomorrow.top/)
+个人博客：[ft-fortomorrow.top](https://ft-fortomorrow.top/)
 
+备用链接1：[fortomorrow.fun](https://fortomorrow.fun/)
+
+备用链接2：[ft-fortomorrow.github.io](https://ft-fortomorrow.github.io)
